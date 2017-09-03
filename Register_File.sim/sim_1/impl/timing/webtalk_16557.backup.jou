@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:26 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed Apr 26 22:36:31 2017
+# Process ID: 16557
+# Current directory: /media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.sim/sim_1/impl/timing
+# Command line: wbtcv -mode batch -source /media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.sim/sim_1/impl/timing/xsim.dir/TB_Collection_time_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.sim/sim_1/impl/timing/webtalk.log
+# Journal file: /media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.sim/sim_1/impl/timing/webtalk.jou
+#-----------------------------------------------------------
+source /media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register -notrace
+source File/Register_File_Final/Register_File.sim/sim_1/impl/timing/xsim.dir/TB_Collection_time_impl/webtalk/xsim_webtalk.tcl -notrace

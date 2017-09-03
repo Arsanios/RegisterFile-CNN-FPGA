@@ -1,0 +1,99 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /media/arsanios/myNtfs/Xilinx/Vivado/2016.3/bin/unwrapped/lnx64.o/xelab -wto b394239910e64c488ae990d43b20f1ae --debug typical --relax --mt 8 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot TB_Collection_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.TB_Collection xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "TB_Collection_time_synth.sdf", for root module "TB_Collection/TB".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "TB_Collection_time_synth.sdf", for root module "TB_Collection/TB".
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module simprims_ver.LUT4
+Compiling module simprims_ver.ffsrce_fdce
+Compiling module simprims_ver.FDCE
+Compiling module simprims_ver.latchsre_ldce
+Compiling module simprims_ver.LDCE
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module simprims_ver.MUXF7
+Compiling module simprims_ver.x_lut3_mux4
+Compiling module simprims_ver.LUT3
+Compiling module simprims_ver.LUT5
+Compiling module simprims_ver.sffsrce_fdre
+Compiling module simprims_ver.FDRE
+Compiling module simprims_ver.FDRE(INIT=1'b1)
+Compiling module simprims_ver.x_lut1_mux2
+Compiling module simprims_ver.LUT1
+Compiling module xil_defaultlib.FSM_01
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUF
+Compiling module xil_defaultlib.Column_Counter_Int
+Compiling module xil_defaultlib.Column_Selector
+Compiling module xil_defaultlib.Status_Checker_15
+Compiling module xil_defaultlib.Counter_3X_16
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.Status_Checker_13
+Compiling module xil_defaultlib.Counter_3X_14
+Compiling module xil_defaultlib.Controller_0
+Compiling module xil_defaultlib.Status_Checker
+Compiling module xil_defaultlib.Counter_3X
+Compiling module xil_defaultlib.Controller_1
+Compiling module xil_defaultlib.Row_Counter_Int
+Compiling module xil_defaultlib.Column_Selector_2
+Compiling module xil_defaultlib.MRegister
+Compiling module xil_defaultlib.MRegister_3
+Compiling module xil_defaultlib.MRegister_4
+Compiling module xil_defaultlib.MRegister_5
+Compiling module xil_defaultlib.MRegister_6
+Compiling module xil_defaultlib.MRegister_7
+Compiling module xil_defaultlib.MRegister_8
+Compiling module xil_defaultlib.MRegister_9
+Compiling module xil_defaultlib.MRegister_10
+Compiling module xil_defaultlib.Buff_Sim_Reg
+Compiling module xil_defaultlib.Buff_Sim_Reg_11
+Compiling module xil_defaultlib.Buff_Sim_Reg_12
+Compiling module xil_defaultlib.Registers_Matrix
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module xil_defaultlib.clk_wiz_0clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module simprims_ver.VCC
+Compiling module simprims_ver.GND
+Compiling module xil_defaultlib.c_counter_binary_0c_reg_fd_v12_0...
+Compiling module simprims_ver.CARRY4
+Compiling module xil_defaultlib.c_counter_binary_0c_addsub_v12_0...
+Compiling module xil_defaultlib.c_counter_binary_0c_addsub_v12_0...
+Compiling module xil_defaultlib.c_counter_binary_0c_addsub_v12_0...
+Compiling module xil_defaultlib.c_counter_binary_0c_counter_bina...
+Compiling module xil_defaultlib.c_counter_binary_0c_counter_bina...
+Compiling module xil_defaultlib.c_counter_binary_0c_counter_bina...
+Compiling module xil_defaultlib.c_counter_binary_0
+Compiling module xil_defaultlib.Simp_Reg_8bit
+Compiling module simprims_ver.RB18_INTERNAL_VLOG(DOA_REG=0,DOB...
+Compiling module simprims_ver.RAMB18E1(INIT_00=256'b0101000001...
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_prim_w...
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_prim_w...
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_generi...
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_top
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_v8_3_4...
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_v8_3_4
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling module simprims_ver.DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module xil_defaultlib.c_counter_binary_2xbip_dsp48e1_w...
+Compiling module xil_defaultlib.c_counter_binary_2dsp48_counter
+Compiling module xil_defaultlib.c_counter_binary_2xbip_counter_v...
+Compiling module xil_defaultlib.c_counter_binary_2c_counter_bina...
+Compiling module xil_defaultlib.c_counter_binary_2c_counter_bina...
+Compiling module xil_defaultlib.c_counter_binary_2
+Compiling module xil_defaultlib.Multiplixer_4_1
+Compiling module xil_defaultlib.Serializer
+Compiling module xil_defaultlib.Collection
+Compiling architecture behavioral of entity xil_defaultlib.tb_collection
+Built simulation snapshot TB_Collection_time_synth

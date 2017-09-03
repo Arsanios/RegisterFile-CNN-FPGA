@@ -1,0 +1,82 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /media/arsanios/myNtfs/Xilinx/Vivado/2016.3/bin/unwrapped/lnx64.o/xelab -wto b394239910e64c488ae990d43b20f1ae --debug typical --relax --mt 8 -L xil_defaultlib -L xbip_utils_v3_0_7 -L c_reg_fd_v12_0_3 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_3 -L xbip_dsp48_addsub_v3_0_3 -L xbip_addsub_v3_0_3 -L c_addsub_v12_0_10 -L c_gate_bit_v12_0_3 -L xbip_counter_v3_0_3 -L c_counter_binary_v12_0_10 -L blk_mem_gen_v8_3_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_Collection_behav xil_defaultlib.TB_Collection xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [/wrk/2016.3/nightly/2016_10_10_1682563/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_3/simulation/blk_mem_gen_v8_3.v:2415]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package c_counter_binary_v12_0_10.c_counter_binary_v12_0_10_viv_co...
+Compiling package xbip_utils_v3_0_7.xbip_utils_v3_0_7_pkg
+Compiling package xbip_counter_v3_0_3.xbip_counter_v3_0_3_viv_comp
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xbip_counter_v3_0_3.xbip_counter_v3_0_3_pkg
+Compiling package c_counter_binary_v12_0_10.c_counter_binary_v12_0_10_pkg
+Compiling package c_addsub_v12_0_10.c_addsub_v12_0_10_pkg_legacy
+Compiling package c_reg_fd_v12_0_3.c_reg_fd_v12_0_3_viv_comp
+Compiling package c_addsub_v12_0_10.c_addsub_v12_0_10_pkg
+Compiling package unisim.vcomponents
+Compiling package xbip_pipe_v3_0_3.xbip_pipe_v3_0_3_viv_comp
+Compiling package c_gate_bit_v12_0_3.c_gate_bit_v12_0_3_viv_comp
+Compiling package xbip_counter_v3_0_3.xbip_counter_v3_0_3_hdl_comps
+Compiling package xbip_dsp48_wrapper_v3_0_4.xbip_dsp48_wrapper_v3_0_4_pkg
+Compiling package ieee.std_logic_signed
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling architecture structural of entity c_reg_fd_v12_0_3.c_reg_fd_v12_0_3_viv [\c_reg_fd_v12_0_3_viv(c_width=6,...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_10.c_addsub_v12_0_10_lut6_legacy [\c_addsub_v12_0_10_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_10.c_addsub_v12_0_10_fabric_legacy [\c_addsub_v12_0_10_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_10.c_addsub_v12_0_10_legacy [\c_addsub_v12_0_10_legacy(c_fami...]
+Compiling architecture synth of entity c_counter_binary_v12_0_10.c_counter_binary_v12_0_10_legacy [\c_counter_binary_v12_0_10_legac...]
+Compiling architecture synth of entity c_counter_binary_v12_0_10.c_counter_binary_v12_0_10_viv [\c_counter_binary_v12_0_10_viv(c...]
+Compiling architecture xilinx of entity c_counter_binary_v12_0_10.c_counter_binary_v12_0_10 [\c_counter_binary_v12_0_10(c_xde...]
+Compiling architecture c_counter_binary_0_arch of entity xil_defaultlib.c_counter_binary_0 [c_counter_binary_0_default]
+Compiling module blk_mem_gen_v8_3_4.blk_mem_gen_v8_3_4_output_stage(...
+Compiling module blk_mem_gen_v8_3_4.blk_mem_gen_v8_3_4_output_stage(...
+Compiling module blk_mem_gen_v8_3_4.blk_mem_gen_v8_3_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_3_4.blk_mem_gen_v8_3_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_3_4.blk_mem_gen_v8_3_4(C_FAMILY="art...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling architecture synth of entity xbip_pipe_v3_0_3.xbip_pipe_v3_0_3_viv [\xbip_pipe_v3_0_3_viv(c_has_ce=1...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture synth of entity xbip_dsp48_wrapper_v3_0_4.xbip_dsp48e1_wrapper_v3_0 [\xbip_dsp48e1_wrapper_v3_0(preg=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_3.xbip_pipe_v3_0_3_viv [\xbip_pipe_v3_0_3_viv(c_has_ce=1...]
+Compiling architecture synth of entity xbip_counter_v3_0_3.dsp48_counter [\dsp48_counter(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_counter_v3_0_3.xbip_counter_v3_0_3_viv [\xbip_counter_v3_0_3_viv(c_xdevi...]
+Compiling architecture synth of entity c_counter_binary_v12_0_10.c_counter_binary_v12_0_10_viv [\c_counter_binary_v12_0_10_viv(c...]
+Compiling architecture xilinx of entity c_counter_binary_v12_0_10.c_counter_binary_v12_0_10 [\c_counter_binary_v12_0_10(c_imp...]
+Compiling architecture c_counter_binary_2_arch of entity xil_defaultlib.c_counter_binary_2 [c_counter_binary_2_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplixer_4_1 [multiplixer_4_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Simp_Reg_8bit [simp_reg_8bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Serializer [serializer_default]
+Compiling architecture behavioral of entity xil_defaultlib.Column_Counter_Int [column_counter_int_default]
+Compiling architecture behavioral of entity xil_defaultlib.Column_Selector [column_selector_default]
+Compiling architecture behavioral of entity xil_defaultlib.Row_Counter_Int [row_counter_int_default]
+Compiling architecture behavioral of entity xil_defaultlib.MRegister [mregister_default]
+Compiling architecture behavioral of entity xil_defaultlib.Status_Checker [status_checker_default]
+Compiling architecture behavioral of entity xil_defaultlib.Counter_3X [counter_3x_default]
+Compiling architecture behavioral of entity xil_defaultlib.Controller [controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.Buff_Sim_Reg [buff_sim_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Registers_Matrix [registers_matrix_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_Row_Status [mux_row_status_default]
+Compiling architecture behavioral of entity xil_defaultlib.FSM_01 [fsm_01_default]
+Compiling architecture behavioral of entity xil_defaultlib.Collection [collection_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_collection
+Built simulation snapshot TB_Collection_behav

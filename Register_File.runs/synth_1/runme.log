@@ -1,0 +1,519 @@
+
+*** Running vivado
+    with args -log Collection.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Collection.tcl
+
+
+****** Vivado v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:26 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source Collection.tcl -notrace
+Command: synth_design -top Collection -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 4884 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 1072.141 ; gain = 164.301 ; free physical = 1100 ; free virtual = 7977
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Collection' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Collection.vhd:30]
+INFO: [Synth 8-3491] module 'Serializer' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Serializer.vhd:4' bound to instance 'Serializer_core' of component 'Serializer' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Collection.vhd:136]
+INFO: [Synth 8-638] synthesizing module 'Serializer' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Serializer.vhd:17]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'Clock_Wizard' of component 'clk_wiz_0' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Serializer.vhd:113]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/realtime/clk_wiz_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'c_counter_binary_0' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/realtime/c_counter_binary_0_stub.vhdl:5' bound to instance 'Counter_Address_Generator' of component 'c_counter_binary_0' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Serializer.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'c_counter_binary_0' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/realtime/c_counter_binary_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'blk_mem_gen_0' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/realtime/blk_mem_gen_0_stub.vhdl:5' bound to instance 'Ram' of component 'blk_mem_gen_0' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Serializer.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/realtime/blk_mem_gen_0_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'c_counter_binary_2' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/realtime/c_counter_binary_2_stub.vhdl:5' bound to instance 'Selector_Mux' of component 'c_counter_binary_2' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Serializer.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'c_counter_binary_2' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/realtime/c_counter_binary_2_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Multiplixer_4_1' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Multiplixer_4_1.vhd:7' bound to instance 'Serializer' of component 'Multiplixer_4_1' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Serializer.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'Multiplixer_4_1' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Multiplixer_4_1.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'Multiplixer_4_1' (1#1) [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Multiplixer_4_1.vhd:18]
+INFO: [Synth 8-3491] module 'Simp_Reg_8bit' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/imports/Register File/Register_File_Final/Files/Simp_Reg_8bIt.vhd:4' bound to instance 'Output_Reg0' of component 'Simp_Reg_8bit' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Serializer.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'Simp_Reg_8bit' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/imports/Register File/Register_File_Final/Files/Simp_Reg_8bIt.vhd:12]
+WARNING: [Synth 8-614] signal 'VALID' is read in the process but is not in the sensitivity list [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/imports/Register File/Register_File_Final/Files/Simp_Reg_8bIt.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Simp_Reg_8bit' (2#1) [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/imports/Register File/Register_File_Final/Files/Simp_Reg_8bIt.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Serializer' (3#1) [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Serializer.vhd:17]
+INFO: [Synth 8-3491] module 'Registers_Matrix' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:4' bound to instance 'Registers_Matrix_core' of component 'Registers_Matrix' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Collection.vhd:137]
+INFO: [Synth 8-638] synthesizing module 'Registers_Matrix' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:38]
+INFO: [Synth 8-3491] module 'Column_Counter_Int' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Column_Counter_Int.vhd:8' bound to instance 'Column_Count' of component 'Column_Counter_Int' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:181]
+INFO: [Synth 8-638] synthesizing module 'Column_Counter_Int' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Column_Counter_Int.vhd:18]
+WARNING: [Synth 8-614] signal 'CE' is read in the process but is not in the sensitivity list [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Column_Counter_Int.vhd:26]
+WARNING: [Synth 8-614] signal 'address_sig' is read in the process but is not in the sensitivity list [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Column_Counter_Int.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'Column_Counter_Int' (4#1) [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Column_Counter_Int.vhd:18]
+INFO: [Synth 8-3491] module 'Column_Selector' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Column_Selector.vhd:6' bound to instance 'Column_Select' of component 'Column_Selector' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:182]
+INFO: [Synth 8-638] synthesizing module 'Column_Selector' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Column_Selector.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'Column_Selector' (5#1) [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Column_Selector.vhd:17]
+INFO: [Synth 8-3491] module 'Row_Counter_Int' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Row_Counter_Int.vhd:7' bound to instance 'Row_Count' of component 'Row_Counter_Int' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:183]
+INFO: [Synth 8-638] synthesizing module 'Row_Counter_Int' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Row_Counter_Int.vhd:17]
+WARNING: [Synth 8-614] signal 'CE' is read in the process but is not in the sensitivity list [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Row_Counter_Int.vhd:25]
+WARNING: [Synth 8-614] signal 'row_addr' is read in the process but is not in the sensitivity list [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Row_Counter_Int.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'Row_Counter_Int' (6#1) [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Row_Counter_Int.vhd:17]
+INFO: [Synth 8-3491] module 'Column_Selector' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Column_Selector.vhd:6' bound to instance 'Row_Select' of component 'Column_Selector' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:184]
+INFO: [Synth 8-3491] module 'MRegister' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/MRegister.vhd:4' bound to instance 'SRegister_00' of component 'MRegister' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:187]
+INFO: [Synth 8-638] synthesizing module 'MRegister' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/MRegister.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'MRegister' (7#1) [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/MRegister.vhd:18]
+INFO: [Synth 8-3491] module 'MRegister' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/MRegister.vhd:4' bound to instance 'SRegister_01' of component 'MRegister' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:188]
+INFO: [Synth 8-3491] module 'MRegister' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/MRegister.vhd:4' bound to instance 'SRegister_02' of component 'MRegister' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:189]
+INFO: [Synth 8-3491] module 'Controller' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Controller.vhd:4' bound to instance 'Controller_0' of component 'Controller' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:190]
+INFO: [Synth 8-638] synthesizing module 'Controller' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Controller.vhd:19]
+INFO: [Synth 8-3491] module 'Status_Checker' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Status_Checker.vhd:4' bound to instance 'Checker' of component 'Status_Checker' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Controller.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'Status_Checker' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Status_Checker.vhd:16]
+WARNING: [Synth 8-614] signal 'state' is read in the process but is not in the sensitivity list [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Status_Checker.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'Status_Checker' (8#1) [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Status_Checker.vhd:16]
+INFO: [Synth 8-3491] module 'Counter_3X' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Counter_3X.vhd:8' bound to instance 'Counter' of component 'Counter_3X' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Controller.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'Counter_3X' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Counter_3X.vhd:19]
+WARNING: [Synth 8-614] signal 'CE' is read in the process but is not in the sensitivity list [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Counter_3X.vhd:26]
+WARNING: [Synth 8-614] signal 'thresh_sig' is read in the process but is not in the sensitivity list [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Counter_3X.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'Counter_3X' (9#1) [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Counter_3X.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'Controller' (10#1) [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Controller.vhd:19]
+INFO: [Synth 8-3491] module 'MRegister' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/MRegister.vhd:4' bound to instance 'SRegister_10' of component 'MRegister' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:193]
+INFO: [Synth 8-3491] module 'MRegister' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/MRegister.vhd:4' bound to instance 'SRegister_11' of component 'MRegister' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:194]
+INFO: [Synth 8-3491] module 'MRegister' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/MRegister.vhd:4' bound to instance 'SRegister_12' of component 'MRegister' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:195]
+INFO: [Synth 8-3491] module 'Controller' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Controller.vhd:4' bound to instance 'Controller_1' of component 'Controller' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:196]
+INFO: [Synth 8-3491] module 'MRegister' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/MRegister.vhd:4' bound to instance 'SRegister_20' of component 'MRegister' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:199]
+INFO: [Synth 8-3491] module 'MRegister' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/MRegister.vhd:4' bound to instance 'SRegister_21' of component 'MRegister' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:200]
+INFO: [Synth 8-3491] module 'MRegister' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/MRegister.vhd:4' bound to instance 'SRegister_22' of component 'MRegister' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:201]
+INFO: [Synth 8-3491] module 'Controller' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Controller.vhd:4' bound to instance 'Controller_2' of component 'Controller' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:202]
+INFO: [Synth 8-3491] module 'Buff_Sim_Reg' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Buff_Sim_Reg.vhd:4' bound to instance 'SRegister_30' of component 'Buff_Sim_Reg' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'Buff_Sim_Reg' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Buff_Sim_Reg.vhd:15]
+WARNING: [Synth 8-614] signal 'ACTIVE_BUFF' is read in the process but is not in the sensitivity list [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Buff_Sim_Reg.vhd:19]
+WARNING: [Synth 8-614] signal 'ACTIVE_COL' is read in the process but is not in the sensitivity list [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Buff_Sim_Reg.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'Buff_Sim_Reg' (11#1) [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Buff_Sim_Reg.vhd:15]
+INFO: [Synth 8-3491] module 'Buff_Sim_Reg' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Buff_Sim_Reg.vhd:4' bound to instance 'SRegister_31' of component 'Buff_Sim_Reg' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:206]
+INFO: [Synth 8-3491] module 'Buff_Sim_Reg' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Buff_Sim_Reg.vhd:4' bound to instance 'SRegister_32' of component 'Buff_Sim_Reg' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:207]
+INFO: [Synth 8-256] done synthesizing module 'Registers_Matrix' (12#1) [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd:38]
+INFO: [Synth 8-3491] module 'Mux_Row_Status' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/DMux_Row_Status.vhd:5' bound to instance 'Mux_Row' of component 'Mux_Row_Status' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Collection.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'Mux_Row_Status' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/DMux_Row_Status.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Mux_Row_Status' (13#1) [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/DMux_Row_Status.vhd:13]
+INFO: [Synth 8-3491] module 'FSM_01' declared at '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/FSM_01.vhd:5' bound to instance 'FSM' of component 'FSM_01' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Collection.vhd:140]
+INFO: [Synth 8-638] synthesizing module 'FSM_01' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/FSM_01.vhd:30]
+WARNING: [Synth 8-614] signal 'VALID' is read in the process but is not in the sensitivity list [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/FSM_01.vhd:44]
+WARNING: [Synth 8-614] signal 'timer4x' is read in the process but is not in the sensitivity list [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/FSM_01.vhd:44]
+WARNING: [Synth 8-614] signal 'RESULT_ROW_STATUS' is read in the process but is not in the sensitivity list [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/FSM_01.vhd:44]
+WARNING: [Synth 8-614] signal 'ADDR_COL' is read in the process but is not in the sensitivity list [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/FSM_01.vhd:44]
+WARNING: [Synth 8-614] signal 'row_signal' is read in the process but is not in the sensitivity list [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/FSM_01.vhd:44]
+WARNING: [Synth 8-614] signal 'row_to_buff' is read in the process but is not in the sensitivity list [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/FSM_01.vhd:155]
+INFO: [Synth 8-256] done synthesizing module 'FSM_01' (14#1) [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/FSM_01.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'Collection' (15#1) [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Collection.vhd:30]
+WARNING: [Synth 8-3331] design FSM_01 has unconnected port CLKX
+WARNING: [Synth 8-3331] design FSM_01 has unconnected port ADDR_ROW[1]
+WARNING: [Synth 8-3331] design FSM_01 has unconnected port ADDR_ROW[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:19 . Memory (MB): peak = 1113.609 ; gain = 205.770 ; free physical = 1056 ; free virtual = 7934
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:20 . Memory (MB): peak = 1113.609 ; gain = 205.770 ; free physical = 1055 ; free virtual = 7935
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_gen_0' instantiated as 'Serializer_core/Ram' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Serializer.vhd:115]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'c_counter_binary_0' instantiated as 'Serializer_core/Counter_Address_Generator' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Serializer.vhd:114]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'c_counter_binary_2' instantiated as 'Serializer_core/Selector_Mux' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Serializer.vhd:116]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'clk_wiz_0' instantiated as 'Serializer_core/Clock_Wizard' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Serializer.vhd:113]
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/dcp/c_counter_binary_0_in_context.xdc] for cell 'Serializer_core/Counter_Address_Generator'
+Finished Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/dcp/c_counter_binary_0_in_context.xdc] for cell 'Serializer_core/Counter_Address_Generator'
+Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/dcp_2/blk_mem_gen_0_in_context.xdc] for cell 'Serializer_core/Ram'
+Finished Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/dcp_2/blk_mem_gen_0_in_context.xdc] for cell 'Serializer_core/Ram'
+Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/dcp_3/clk_wiz_0_in_context.xdc] for cell 'Serializer_core/Clock_Wizard'
+Finished Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/dcp_3/clk_wiz_0_in_context.xdc] for cell 'Serializer_core/Clock_Wizard'
+Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/dcp_4/c_counter_binary_2_in_context.xdc] for cell 'Serializer_core/Selector_Mux'
+Finished Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/dcp_4/c_counter_binary_2_in_context.xdc] for cell 'Serializer_core/Selector_Mux'
+Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/constrs_1/new/Constraints_Chip.xdc]
+Finished Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/constrs_1/new/Constraints_Chip.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/constrs_1/new/Constraints_Chip.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Collection_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Collection_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1423.672 ; gain = 0.000 ; free physical = 864 ; free virtual = 7750
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'Serializer_core/Counter_Address_Generator' at clock pin 'CLK' is different from the actual clock period '20.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'Serializer_core/Selector_Mux' at clock pin 'CLK' is different from the actual clock period '5.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:29 . Memory (MB): peak = 1423.672 ; gain = 515.832 ; free physical = 863 ; free virtual = 7750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:29 . Memory (MB): peak = 1423.672 ; gain = 515.832 ; free physical = 863 ; free virtual = 7750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK. (constraint file  {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/dcp_3/clk_wiz_0_in_context.xdc}, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK. (constraint file  {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/.Xil/Vivado-4878-Arch/dcp_3/clk_wiz_0_in_context.xdc}, line 5).
+Applied set_property DONT_TOUCH = true for Serializer_core/Clock_Wizard. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Serializer_core/Selector_Mux. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:29 . Memory (MB): peak = 1423.672 ; gain = 515.832 ; free physical = 863 ; free virtual = 7750
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "row_addr" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'CS_reg' in module 'FSM_01'
+INFO: [Synth 8-5544] ROM "row_to_buff" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "NS" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "NS" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "NS" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "NS" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "NS" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "NS" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'NS_reg' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/FSM_01.vhd:49]
+WARNING: [Synth 8-327] inferring latch for variable 'NS_reg' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/FSM_01.vhd:49]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             reset_state |                             0000 |                             0000
+                   ramen |                             0001 |                             0001
+               writereg0 |                             0010 |                             0010
+               writereg1 |                             0011 |                             0011
+            stopwriting0 |                             0100 |                             0100
+            stopwriting1 |                             0101 |                             0101
+              writebuff0 |                             0110 |                             0110
+              writebuff1 |                             0111 |                             0111
+           stopwritebuff |                             1000 |                             1000
+          stopwritebuff1 |                             1001 |                             1001
+           movefrombuff0 |                             1010 |                             1010
+           movefrombuff1 |                             1011 |                             1011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'CS_reg' using encoding 'sequential' in module 'FSM_01'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_NS_reg' [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/FSM_01.vhd:49]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:29 . Memory (MB): peak = 1423.672 ; gain = 515.832 ; free physical = 852 ; free virtual = 7739
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 3     
+	   2 Input      2 Bit       Adders := 5     
++---Registers : 
+	                8 Bit    Registers := 13    
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   5 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 9     
+	   2 Input      4 Bit        Muxes := 3     
+	  12 Input      4 Bit        Muxes := 1     
+	  20 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 14    
+	  12 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Multiplixer_4_1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      8 Bit        Muxes := 1     
+Module Simp_Reg_8bit 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module Column_Counter_Int 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module Column_Selector 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 3     
+Module Row_Counter_Int 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	                2 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module MRegister 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Status_Checker 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Counter_3X 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module Buff_Sim_Reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module Mux_Row_Status 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 1     
+Module FSM_01 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
++---Muxes : 
+	  12 Input      4 Bit        Muxes := 1     
+	  20 Input      4 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 10    
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:29 . Memory (MB): peak = 1423.672 ; gain = 515.832 ; free physical = 838 ; free virtual = 7725
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Serializer_core/Clock_Wizard/clk4x' to pin 'Serializer_core/Clock_Wizard/bbstub_clk4x/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Serializer_core/Clock_Wizard/clkx' to pin 'Serializer_core/Clock_Wizard/bbstub_clkx/O'
+INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:36 . Memory (MB): peak = 1423.672 ; gain = 515.832 ; free physical = 814 ; free virtual = 7702
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:36 . Memory (MB): peak = 1423.672 ; gain = 515.832 ; free physical = 805 ; free virtual = 7692
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:36 . Memory (MB): peak = 1423.672 ; gain = 515.832 ; free physical = 794 ; free virtual = 7682
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 1423.672 ; gain = 515.832 ; free physical = 794 ; free virtual = 7682
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 1423.672 ; gain = 515.832 ; free physical = 794 ; free virtual = 7682
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 1423.672 ; gain = 515.832 ; free physical = 794 ; free virtual = 7682
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 1423.672 ; gain = 515.832 ; free physical = 794 ; free virtual = 7682
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 1423.672 ; gain = 515.832 ; free physical = 794 ; free virtual = 7682
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 1423.672 ; gain = 515.832 ; free physical = 794 ; free virtual = 7682
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------+----------+
+|      |BlackBox name      |Instances |
++------+-------------------+----------+
+|1     |clk_wiz_0          |         1|
+|2     |c_counter_binary_0 |         1|
+|3     |blk_mem_gen_0      |         1|
+|4     |c_counter_binary_2 |         1|
++------+-------------------+----------+
+
+Report Cell Usage: 
++------+------------------------+------+
+|      |Cell                    |Count |
++------+------------------------+------+
+|1     |blk_mem_gen_0_bbox      |     1|
+|2     |c_counter_binary_0_bbox |     1|
+|3     |c_counter_binary_2_bbox |     1|
+|4     |clk_wiz_0_bbox          |     1|
+|5     |LUT1                    |     1|
+|6     |LUT2                    |    12|
+|7     |LUT3                    |    84|
+|8     |LUT4                    |    22|
+|9     |LUT5                    |     9|
+|10    |LUT6                    |    40|
+|11    |MUXF7                   |     1|
+|12    |FDCE                    |   132|
+|13    |FDRE                    |    13|
+|14    |LD                      |     4|
+|15    |IBUF                    |     2|
+|16    |OBUF                    |    73|
++------+------------------------+------+
+
+Report Instance Areas: 
++------+------------------------+-------------------+------+
+|      |Instance                |Module             |Cells |
++------+------------------------+-------------------+------+
+|1     |top                     |                   |   435|
+|2     |  FSM                   |FSM_01             |    65|
+|3     |  Registers_Matrix_core |Registers_Matrix   |   237|
+|4     |    Column_Count        |Column_Counter_Int |     6|
+|5     |    Column_Select       |Column_Selector    |     6|
+|6     |    Controller_0        |Controller         |    11|
+|7     |      Checker           |Status_Checker_15  |     1|
+|8     |      Counter           |Counter_3X_16      |    10|
+|9     |    Controller_1        |Controller_0       |    12|
+|10    |      Checker           |Status_Checker_13  |     2|
+|11    |      Counter           |Counter_3X_14      |    10|
+|12    |    Controller_2        |Controller_1       |    13|
+|13    |      Checker           |Status_Checker     |     3|
+|14    |      Counter           |Counter_3X         |    10|
+|15    |    Row_Count           |Row_Counter_Int    |     9|
+|16    |    Row_Select          |Column_Selector_2  |     3|
+|17    |    SRegister_00        |MRegister          |    17|
+|18    |    SRegister_01        |MRegister_3        |    17|
+|19    |    SRegister_02        |MRegister_4        |    17|
+|20    |    SRegister_10        |MRegister_5        |    17|
+|21    |    SRegister_11        |MRegister_6        |    17|
+|22    |    SRegister_12        |MRegister_7        |    17|
+|23    |    SRegister_20        |MRegister_8        |    17|
+|24    |    SRegister_21        |MRegister_9        |    17|
+|25    |    SRegister_22        |MRegister_10       |    17|
+|26    |    SRegister_30        |Buff_Sim_Reg       |     8|
+|27    |    SRegister_31        |Buff_Sim_Reg_11    |     8|
+|28    |    SRegister_32        |Buff_Sim_Reg_12    |     8|
+|29    |  Serializer_core       |Serializer         |    58|
+|30    |    Output_Reg0         |Simp_Reg_8bit      |     8|
+|31    |    Serializer          |Multiplixer_4_1    |     8|
++------+------------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 1423.672 ; gain = 515.832 ; free physical = 794 ; free virtual = 7682
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1423.672 ; gain = 106.465 ; free physical = 794 ; free virtual = 7682
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:37 . Memory (MB): peak = 1423.680 ; gain = 515.840 ; free physical = 796 ; free virtual = 7683
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  LD => LDCE: 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+105 Infos, 28 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1423.680 ; gain = 429.121 ; free physical = 796 ; free virtual = 7684
+INFO: [Common 17-1381] The checkpoint '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/Collection.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1447.684 ; gain = 0.000 ; free physical = 795 ; free virtual = 7683
+INFO: [Common 17-206] Exiting Vivado at Sat May 13 00:57:55 2017...

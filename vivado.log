@@ -1,0 +1,251 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:26 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sat May 13 00:24:29 2017
+# Process ID: 1573
+# Current directory: /home/arsanios
+# Command line: vivado
+# Log file: /home/arsanios/vivado.log
+# Journal file: /home/arsanios/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/arsanios/myNtfs/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 5842.996 ; gain = 93.461 ; free physical = 2155 ; free virtual = 9732
+remove_files  -fileset Row_Counter {{/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/Row_Counter/Row_Counter.xci}}
+INFO: [Project 1-386] Moving file '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/Row_Counter/Row_Counter.xci' from fileset 'Row_Counter' to fileset 'sources_1'.
+file delete -force {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/Row_Counter}
+file delete -force {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.ip_user_files/ip/Row_Counter} {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.ip_user_files/sim_scripts/Row_Counter}
+import_files
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Count_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Count_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'blk_mem_gen_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'blk_mem_gen_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'c_counter_binary_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'c_counter_binary_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+remove_files  {{/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Row_counter_if.vhd}}
+file delete -force {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Row_counter_if.vhd}
+remove_files  {{/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/FSM_02.vhd} {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/MUX_2_1.vhd} {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/MUX_2_1_NOT.vhd} {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Mux_4_1.vhd} {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Serializer_8bit.vhd} {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Simple_Reg.vhd} {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/Column_Counter/Column_Counter.xci}}
+file delete -force {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/FSM_02.vhd} {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/MUX_2_1.vhd} {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/MUX_2_1_NOT.vhd} {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Mux_4_1.vhd} {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Serializer_8bit.vhd} {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Simple_Reg.vhd} {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/Column_Counter}
+file delete -force {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.ip_user_files/ip/Column_Counter} {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.ip_user_files/sim_scripts/Column_Counter}
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci' is already up-to-date
+[Sat May 13 00:28:25 2017] Launched synth_1...
+Run output will be captured here: /media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Project 1-454] Reading design checkpoint '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'Serializer_core/Clock_Wizard'
+INFO: [Project 1-454] Reading design checkpoint '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/c_counter_binary_0_1/c_counter_binary_0.dcp' for cell 'Serializer_core/Counter_Address_Generator'
+INFO: [Project 1-454] Reading design checkpoint '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'Serializer_core/Ram'
+INFO: [Project 1-454] Reading design checkpoint '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.dcp' for cell 'Serializer_core/Selector_Mux'
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'Serializer_core/Clock_Wizard/inst'
+Finished Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'Serializer_core/Clock_Wizard/inst'
+Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'Serializer_core/Clock_Wizard/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 6649.000 ; gain = 475.445 ; free physical = 1370 ; free virtual = 9095
+Finished Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'Serializer_core/Clock_Wizard/inst'
+Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/constrs_1/new/Constraints_Chip.xdc]
+Finished Parsing XDC File [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/constrs_1/new/Constraints_Chip.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/c_counter_binary_0_1/c_counter_binary_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 6701.258 ; gain = 620.023 ; free physical = 1253 ; free virtual = 8991
+set_property mark_debug false [get_nets [list Serializer_core_n_8 Serializer_core_n_3 Serializer_core_n_4 Serializer_core_n_5 Serializer_core_n_6 Serializer_core_n_7 Serializer_core_n_1 Serializer_core_n_2]]
+disconnect_debug_port u_ila_0/probe10
+disconnect_debug_port u_ila_0/probe11
+disconnect_debug_port u_ila_0/probe12
+disconnect_debug_port u_ila_0/probe13
+disconnect_debug_port u_ila_0/probe14
+disconnect_debug_port u_ila_0/probe15
+disconnect_debug_port u_ila_0/probe16
+disconnect_debug_port u_ila_0/probe17
+delete_debug_port [get_debug_ports {u_ila_0/probe10 u_ila_0/probe11 u_ila_0/probe12 u_ila_0/probe13 u_ila_0/probe14 u_ila_0/probe15 u_ila_0/probe16 u_ila_0/probe17 }]
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list Serializer_core/Clock_Wizard/inst/clk4x ]]
+set_property port_width 8 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {SREGQ_20_OBUF[0]} {SREGQ_20_OBUF[1]} {SREGQ_20_OBUF[2]} {SREGQ_20_OBUF[3]} {SREGQ_20_OBUF[4]} {SREGQ_20_OBUF[5]} {SREGQ_20_OBUF[6]} {SREGQ_20_OBUF[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 8 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {SREGQ_00_OBUF[0]} {SREGQ_00_OBUF[1]} {SREGQ_00_OBUF[2]} {SREGQ_00_OBUF[3]} {SREGQ_00_OBUF[4]} {SREGQ_00_OBUF[5]} {SREGQ_00_OBUF[6]} {SREGQ_00_OBUF[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 8 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {SREGQ_22_OBUF[0]} {SREGQ_22_OBUF[1]} {SREGQ_22_OBUF[2]} {SREGQ_22_OBUF[3]} {SREGQ_22_OBUF[4]} {SREGQ_22_OBUF[5]} {SREGQ_22_OBUF[6]} {SREGQ_22_OBUF[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 8 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list {SREGQ_02_OBUF[0]} {SREGQ_02_OBUF[1]} {SREGQ_02_OBUF[2]} {SREGQ_02_OBUF[3]} {SREGQ_02_OBUF[4]} {SREGQ_02_OBUF[5]} {SREGQ_02_OBUF[6]} {SREGQ_02_OBUF[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 8 [get_debug_ports u_ila_0/probe4]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4]
+connect_debug_port u_ila_0/probe4 [get_nets [list {SREGQ_11_OBUF[0]} {SREGQ_11_OBUF[1]} {SREGQ_11_OBUF[2]} {SREGQ_11_OBUF[3]} {SREGQ_11_OBUF[4]} {SREGQ_11_OBUF[5]} {SREGQ_11_OBUF[6]} {SREGQ_11_OBUF[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 8 [get_debug_ports u_ila_0/probe5]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe5]
+connect_debug_port u_ila_0/probe5 [get_nets [list {SREGQ_12_OBUF[0]} {SREGQ_12_OBUF[1]} {SREGQ_12_OBUF[2]} {SREGQ_12_OBUF[3]} {SREGQ_12_OBUF[4]} {SREGQ_12_OBUF[5]} {SREGQ_12_OBUF[6]} {SREGQ_12_OBUF[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 8 [get_debug_ports u_ila_0/probe6]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe6]
+connect_debug_port u_ila_0/probe6 [get_nets [list {SREGQ_01_OBUF[0]} {SREGQ_01_OBUF[1]} {SREGQ_01_OBUF[2]} {SREGQ_01_OBUF[3]} {SREGQ_01_OBUF[4]} {SREGQ_01_OBUF[5]} {SREGQ_01_OBUF[6]} {SREGQ_01_OBUF[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 8 [get_debug_ports u_ila_0/probe7]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe7]
+connect_debug_port u_ila_0/probe7 [get_nets [list {SREGQ_10_OBUF[0]} {SREGQ_10_OBUF[1]} {SREGQ_10_OBUF[2]} {SREGQ_10_OBUF[3]} {SREGQ_10_OBUF[4]} {SREGQ_10_OBUF[5]} {SREGQ_10_OBUF[6]} {SREGQ_10_OBUF[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 8 [get_debug_ports u_ila_0/probe8]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe8]
+connect_debug_port u_ila_0/probe8 [get_nets [list {SREGQ_21_OBUF[0]} {SREGQ_21_OBUF[1]} {SREGQ_21_OBUF[2]} {SREGQ_21_OBUF[3]} {SREGQ_21_OBUF[4]} {SREGQ_21_OBUF[5]} {SREGQ_21_OBUF[6]} {SREGQ_21_OBUF[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe9]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe9]
+connect_debug_port u_ila_0/probe9 [get_nets [list READY_OBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe10]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe10]
+connect_debug_port u_ila_0/probe10 [get_nets [list VALID_IBUF ]]
+save_constraints
+launch_runs impl_1 -jobs 2
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci' is already up-to-date
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.02 . Memory (MB): peak = 6723.492 ; gain = 0.000 ; free physical = 1185 ; free virtual = 8934
+[Sat May 13 00:33:07 2017] Launched impl_1...
+Run output will be captured here: /media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci' is already up-to-date
+[Sat May 13 00:40:03 2017] Launched impl_1...
+Run output will be captured here: /media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 134 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/arsanios/.Xil/Vivado-1573-Arch/dcp/Collection_board.xdc]
+Finished Parsing XDC File [/home/arsanios/.Xil/Vivado-1573-Arch/dcp/Collection_board.xdc]
+Parsing XDC File [/home/arsanios/.Xil/Vivado-1573-Arch/dcp/Collection_early.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [/home/arsanios/.Xil/Vivado-1573-Arch/dcp/Collection_early.xdc]
+Parsing XDC File [/home/arsanios/.Xil/Vivado-1573-Arch/dcp/Collection.xdc]
+INFO: [Timing 38-2] Deriving generated clocks [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/impl_1/.Xil/Vivado-2070-Arch/dbg_hub_CV.0/out/xsdbm.xdc:11]
+Finished Parsing XDC File [/home/arsanios/.Xil/Vivado-1573-Arch/dcp/Collection.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.18 . Memory (MB): peak = 6865.340 ; gain = 0.000 ; free physical = 1530 ; free virtual = 8386
+Restored from archive | CPU: 0.180000 secs | Memory: 4.140633 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.18 . Memory (MB): peak = 6865.340 ; gain = 0.000 ; free physical = 1530 ; free virtual = 8386
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 82 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 76 instances
+  RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 6 instances
+
+open_run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 6996.320 ; gain = 272.828 ; free physical = 1444 ; free virtual = 8296
+ERROR: [Common 17-165] Too many positional options when parsing 'File/Register_File_Final/Register_File.runs/impl_1/Collection_power_routed.rpx', please type 'open_report -help' for usage info.
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci' is already up-to-date
+[Sat May 13 00:56:18 2017] Launched synth_1...
+Run output will be captured here: /media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/runme.log
+reset_run synth_1
+close_design
+close_design
+launch_runs impl_1 -jobs 2
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP '/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci' is already up-to-date
+[Sat May 13 00:57:11 2017] Launched synth_1...
+Run output will be captured here: /media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/synth_1/runme.log
+[Sat May 13 00:57:11 2017] Launched impl_1...
+Run output will be captured here: /media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/arsanios/.Xil/Vivado-1573-Arch/dcp/Collection_early.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [/home/arsanios/.Xil/Vivado-1573-Arch/dcp/Collection_early.xdc]
+Parsing XDC File [/home/arsanios/.Xil/Vivado-1573-Arch/dcp/Collection.xdc]
+Finished Parsing XDC File [/home/arsanios/.Xil/Vivado-1573-Arch/dcp/Collection.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 7010.902 ; gain = 0.000 ; free physical = 1303 ; free virtual = 8222
+Restored from archive | CPU: 0.020000 secs | Memory: 0.310242 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 7010.902 ; gain = 0.000 ; free physical = 1303 ; free virtual = 8222
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+ERROR: [Common 17-165] Too many positional options when parsing 'File/Register_File_Final/Register_File.runs/impl_1/Collection_power_routed.rpx', please type 'open_report -help' for usage info.
+archive_project {/media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Arsanios_Ayoub.xpr.zip} -force -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location './.Xil/Vivado-1573-Arch' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/arsanios/myNtfs/Xilinx/Vivado/2016.3/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Count_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'c_counter_binary_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'blk_mem_gen_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'Count_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'c_counter_binary_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'blk_mem_gen_0_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Count_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Count_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'blk_mem_gen_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'blk_mem_gen_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'c_counter_binary_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'c_counter_binary_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

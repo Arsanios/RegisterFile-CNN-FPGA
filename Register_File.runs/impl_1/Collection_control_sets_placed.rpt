@@ -1,0 +1,93 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (lin64) Build 1682563 Mon Oct 10 19:07:26 MDT 2016
+| Date         : Sat May 13 00:58:23 2017
+| Host         : Arch running 64-bit unknown
+| Command      : report_control_sets -verbose -file Collection_control_sets_placed.rpt
+| Design       : Collection
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    27 |
+| Unused register locations in slices containing registers |    75 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              17 |           11 |
+| No           | No                    | Yes                    |              16 |           10 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               8 |            3 |
+| Yes          | No                    | Yes                    |             116 |           21 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------+-------------------------------------------------+---------------------------+------------------+----------------+
+|               Clock Signal               |                  Enable Signal                  |      Set/Reset Signal     | Slice Load Count | Bel Load Count |
++------------------------------------------+-------------------------------------------------+---------------------------+------------------+----------------+
+|  Serializer_core/Clock_Wizard/inst/clk4x |                                                 | FSM/state0                |                1 |              1 |
+|  Serializer_core/Clock_Wizard/inst/clk4x |                                                 | FSM/state0_1              |                1 |              1 |
+|  Serializer_core/Clock_Wizard/inst/clk4x |                                                 | FSM/state0_0              |                1 |              1 |
+|  Serializer_core/Clock_Wizard/inst/clk4x |                                                 | FSM/wait_time_reg[0][0]   |                1 |              1 |
+|  Serializer_core/Clock_Wizard/inst/clk4x |                                                 | FSM/wait_time_reg[0]_0[0] |                1 |              1 |
+|  Serializer_core/Clock_Wizard/inst/clk4x |                                                 | FSM/AR[0]                 |                1 |              1 |
+|  Serializer_core/Clock_Wizard/inst/clk4x | FSM/CE                                          |                           |                1 |              2 |
+|  FSM/FSM_sequential_NS_reg[3]_i_2_n_0    |                                                 |                           |                3 |              4 |
+|  Serializer_core/Clock_Wizard/inst/clk4x | Registers_Matrix_core/Controller_2/Checker/E[0] | FSM/wait_time_reg[0]_0[0] |                1 |              4 |
+|  Serializer_core/Clock_Wizard/inst/clk4x | Registers_Matrix_core/Controller_1/Checker/E[0] | FSM/wait_time_reg[0][0]   |                1 |              4 |
+|  Serializer_core/Clock_Wizard/inst/clk4x | Registers_Matrix_core/Controller_0/Checker/E[0] | FSM/AR[0]                 |                1 |              4 |
+|  Serializer_core/Clock_Wizard/inst/clkx  | FSM/ena                                         |                           |                2 |              6 |
+|  Serializer_core/Clock_Wizard/inst/clk4x | FSM/OUTPUT_reg[0]_5[0]                          | GLOBAL_RESET_IBUF         |                2 |              8 |
+|  Serializer_core/Clock_Wizard/inst/clk4x | FSM/OUTPUT_reg[0]_2[0]                          | GLOBAL_RESET_IBUF         |                1 |              8 |
+|  Serializer_core/Clock_Wizard/inst/clk4x | FSM/OUTPUT_reg[0]_4[0]                          | GLOBAL_RESET_IBUF         |                1 |              8 |
+|  Serializer_core/Clock_Wizard/inst/clk4x | FSM/OUTPUT_reg[0]_6[0]                          | GLOBAL_RESET_IBUF         |                1 |              8 |
+|  Serializer_core/Clock_Wizard/inst/clk4x | FSM/Q_reg[0][0]                                 | GLOBAL_RESET_IBUF         |                2 |              8 |
+|  Serializer_core/Clock_Wizard/inst/clk4x | FSM/OUTPUT_reg[0]_3[0]                          | GLOBAL_RESET_IBUF         |                1 |              8 |
+|  Serializer_core/Clock_Wizard/inst/clk4x | FSM/OUTPUT_reg[0][0]                            | GLOBAL_RESET_IBUF         |                1 |              8 |
+|  Serializer_core/Clock_Wizard/inst/clk4x | FSM/OUTPUT_reg[0]_0[0]                          | GLOBAL_RESET_IBUF         |                1 |              8 |
+|  Serializer_core/Clock_Wizard/inst/clk4x | FSM/OUTPUT_BUFF_reg[7]_1[0]                     | GLOBAL_RESET_IBUF         |                1 |              8 |
+|  Serializer_core/Clock_Wizard/inst/clk4x | FSM/OUTPUT_reg[0]_1[0]                          | GLOBAL_RESET_IBUF         |                2 |              8 |
+|  Serializer_core/Clock_Wizard/inst/clk4x | FSM/OUTPUT_BUFF_reg[7]_0[0]                     | GLOBAL_RESET_IBUF         |                2 |              8 |
+|  Serializer_core/Clock_Wizard/inst/clk4x | FSM/OUTPUT_BUFF_reg[7][0]                       | GLOBAL_RESET_IBUF         |                2 |              8 |
+|  Serializer_core/Clock_Wizard/inst/clk4x | FSM/E[0]                                        | GLOBAL_RESET_IBUF         |                1 |              8 |
+|  Serializer_core/Clock_Wizard/inst/clk4x |                                                 | GLOBAL_RESET_IBUF         |                4 |             10 |
+|  Serializer_core/Clock_Wizard/inst/clk4x |                                                 |                           |                8 |             13 |
++------------------------------------------+-------------------------------------------------+---------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     6 |
+| 2      |                     1 |
+| 4      |                     4 |
+| 6      |                     1 |
+| 8      |                    13 |
+| 10     |                     1 |
+| 13     |                     1 |
++--------+-----------------------+
+
+

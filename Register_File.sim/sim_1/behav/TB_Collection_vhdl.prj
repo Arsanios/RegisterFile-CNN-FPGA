@@ -1,0 +1,22 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../Register_File.srcs/sources_1/new/Status_Checker.vhd"
+vhdl xil_defaultlib  "../../../Register_File.srcs/sources_1/new/Counter_3X.vhd"
+vhdl xil_defaultlib  "../../../Register_File.srcs/sources_1/ip/c_counter_binary_2/sim/c_counter_binary_2.vhd"
+vhdl xil_defaultlib  "../../../Register_File.srcs/sources_1/ip/c_counter_binary_0_1/sim/c_counter_binary_0.vhd"
+vhdl xil_defaultlib  "../../../Register_File.srcs/sources_1/new/Row_Counter_Int.vhd"
+vhdl xil_defaultlib  "../../../Register_File.srcs/sources_1/new/MRegister.vhd"
+vhdl xil_defaultlib  "../../../Register_File.srcs/sources_1/new/Controller.vhd"
+vhdl xil_defaultlib  "../../../Register_File.srcs/sources_1/new/Column_Selector.vhd"
+vhdl xil_defaultlib  "../../../Register_File.srcs/sources_1/new/Column_Counter_Int.vhd"
+vhdl xil_defaultlib  "../../../Register_File.srcs/sources_1/new/Buff_Sim_Reg.vhd"
+vhdl xil_defaultlib  "../../../Files/Simp_Reg_8bIt.vhd"
+vhdl xil_defaultlib  "../../../Register_File.srcs/sources_1/new/Multiplixer_4_1.vhd"
+vhdl xil_defaultlib  "../../../Register_File.srcs/sources_1/new/Registers_Matrix.vhd"
+vhdl xil_defaultlib  "../../../Register_File.srcs/sources_1/new/DMux_Row_Status.vhd"
+vhdl xil_defaultlib  "../../../Register_File.srcs/sources_1/new/FSM_01.vhd"
+vhdl xil_defaultlib  "../../../Register_File.srcs/sources_1/new/Serializer.vhd"
+vhdl xil_defaultlib  "../../../Register_File.srcs/sources_1/new/Collection.vhd"
+vhdl xil_defaultlib  "../../../Register_File.srcs/sim_1/new/TB_Collection.vhd"
+
+# Do not sort compile order
+nosort

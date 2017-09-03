@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:26 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Mar  9 12:44:03 2017
+# Process ID: 17071
+# Current directory: /media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_1.0/Register_File.runs/c_counter_binary_0_synth_1
+# Command line: vivado -log c_counter_binary_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source c_counter_binary_0.tcl
+# Log file: /media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_1.0/Register_File.runs/c_counter_binary_0_synth_1/c_counter_binary_0.vds
+# Journal file: /media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_1.0/Register_File.runs/c_counter_binary_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source c_counter_binary_0.tcl -notrace

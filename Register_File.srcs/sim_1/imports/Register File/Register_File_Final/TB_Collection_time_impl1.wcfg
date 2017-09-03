@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_Collection_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_Collection" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1515787000fs"></ZoomStartTime>
+      <ZoomEndTime time="2067394211fs"></ZoomEndTime>
+      <Cursor1Time time="1549218000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="197"></NameColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="62" />
+   <wave_markers>
+      <marker label="" time="395000000" />
+      <marker label="" time="370658000" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/TB_Collection/CLK">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+      <obj_property name="label">sys-clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Serializer_core/Clock_Wizard/clk4x">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clk4x</obj_property>
+      <obj_property name="ObjectShortName">clk4x</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="label">CLK_4X</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/VALID">
+      <obj_property name="ElementShortName">VALID</obj_property>
+      <obj_property name="ObjectShortName">VALID</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/READY">
+      <obj_property name="ElementShortName">READY</obj_property>
+      <obj_property name="ObjectShortName">READY</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Serializer_core/Clock_Wizard/clkx">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clkx</obj_property>
+      <obj_property name="ObjectShortName">clkx</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="label">CLK_X</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_00">
+      <obj_property name="ElementShortName">SREGQ_00[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_00[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_01">
+      <obj_property name="ElementShortName">SREGQ_01[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_01[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_02">
+      <obj_property name="ElementShortName">SREGQ_02[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_02[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_10">
+      <obj_property name="ElementShortName">SREGQ_10[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_10[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_11">
+      <obj_property name="ElementShortName">SREGQ_11[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_11[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_12">
+      <obj_property name="ElementShortName">SREGQ_12[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_12[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_20">
+      <obj_property name="ElementShortName">SREGQ_20[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_20[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_21">
+      <obj_property name="ElementShortName">SREGQ_21[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_21[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_22">
+      <obj_property name="ElementShortName">SREGQ_22[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_22[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/TB/FSM/out">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Current_State</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider68" type="divider">
+      <obj_property name="label">Serializer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group46">
+      <obj_property name="label">Serializer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Serializer_core/Clock_Wizard/clkx">
+         <obj_property name="ElementShortName">clkx</obj_property>
+         <obj_property name="ObjectShortName">clkx</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/READY">
+         <obj_property name="ElementShortName">READY</obj_property>
+         <obj_property name="ObjectShortName">READY</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_Collection/TB/Serializer_core/Ram/douta">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">douta[31:0]</obj_property>
+         <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+         <obj_property name="label">out_ram</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Serializer_core/Ram/ena">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">ena</obj_property>
+         <obj_property name="ObjectShortName">ena</obj_property>
+         <obj_property name="label">en_ram</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_Collection/TB/Serializer_core/D0">
+         <obj_property name="ElementShortName">D0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">D0[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_Collection/TB/Serializer_core/D1">
+         <obj_property name="ElementShortName">D1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">D1[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_Collection/TB/Serializer_core/D2">
+         <obj_property name="ElementShortName">D2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">D2[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="vbus" fp_name="vbus59">
+         <obj_property name="label">D4[7:0]</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <wvobject type="logic" fp_name="/TB_Collection/TB/Serializer_core/Ram_n_24">
+            <obj_property name="ElementShortName">Ram_n_24</obj_property>
+            <obj_property name="ObjectShortName">Ram_n_24</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/TB_Collection/TB/Serializer_core/Ram_n_25">
+            <obj_property name="ElementShortName">Ram_n_25</obj_property>
+            <obj_property name="ObjectShortName">Ram_n_25</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/TB_Collection/TB/Serializer_core/Ram_n_26">
+            <obj_property name="ElementShortName">Ram_n_26</obj_property>
+            <obj_property name="ObjectShortName">Ram_n_26</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/TB_Collection/TB/Serializer_core/Ram_n_27">
+            <obj_property name="ElementShortName">Ram_n_27</obj_property>
+            <obj_property name="ObjectShortName">Ram_n_27</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/TB_Collection/TB/Serializer_core/Ram_n_28">
+            <obj_property name="ElementShortName">Ram_n_28</obj_property>
+            <obj_property name="ObjectShortName">Ram_n_28</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/TB_Collection/TB/Serializer_core/Ram_n_29">
+            <obj_property name="ElementShortName">Ram_n_29</obj_property>
+            <obj_property name="ObjectShortName">Ram_n_29</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/TB_Collection/TB/Serializer_core/Ram_n_30">
+            <obj_property name="ElementShortName">Ram_n_30</obj_property>
+            <obj_property name="ObjectShortName">Ram_n_30</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/TB_Collection/TB/Serializer_core/Ram_n_31">
+            <obj_property name="ElementShortName">Ram_n_31</obj_property>
+            <obj_property name="ObjectShortName">Ram_n_31</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Serializer_core/Clock_Wizard/clk4x">
+         <obj_property name="ElementShortName">clk4x</obj_property>
+         <obj_property name="ObjectShortName">clk4x</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Serializer_core/Selector_Mux/CE">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">CE</obj_property>
+         <obj_property name="ObjectShortName">CE</obj_property>
+         <obj_property name="label">en_select</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_Collection/TB/Serializer_core/Selector_Mux/Q">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Q[1:0]</obj_property>
+         <obj_property name="ObjectShortName">Q[1:0]</obj_property>
+         <obj_property name="label">selector[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_Collection/TB/Serializer_core/D">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">D[7:0]</obj_property>
+         <obj_property name="ObjectShortName">D[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="label">mux_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Serializer_core/Output_Reg0/E[0]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">en_ser_reg</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_Collection/TB/Serializer_core/Output_Reg0/Q">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">Q[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="label">ser_reg_out[7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider68" type="divider">
+      <obj_property name="label">Register_File</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_30/Q">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+      <obj_property name="label">Buff_0[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_31/Q">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+      <obj_property name="label">Buff_1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_32/Q">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+      <obj_property name="label">Buff_2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group113">
+      <obj_property name="label">Reg File Matrix</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Serializer_core/Clock_Wizard/clk4x">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">clk4x</obj_property>
+         <obj_property name="ObjectShortName">clk4x</obj_property>
+         <obj_property name="CustomSignalColor">#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="label">CLK_4X</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_Collection/TB/FSM/out">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">out[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="label">Current_State</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_Collection/TB/FSM/addr_row">
+         <obj_property name="ElementShortName">addr_row[1:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_row[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/row_0">
+         <obj_property name="ElementShortName">row_0</obj_property>
+         <obj_property name="ObjectShortName">row_0</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/row_1">
+         <obj_property name="ElementShortName">row_1</obj_property>
+         <obj_property name="ObjectShortName">row_1</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/row_2">
+         <obj_property name="ElementShortName">row_2</obj_property>
+         <obj_property name="ObjectShortName">row_2</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_Collection/TB/FSM/addr_col">
+         <obj_property name="ElementShortName">addr_col[1:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_col[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/col_0">
+         <obj_property name="ElementShortName">col_0</obj_property>
+         <obj_property name="ObjectShortName">col_0</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/col_1">
+         <obj_property name="ElementShortName">col_1</obj_property>
+         <obj_property name="ObjectShortName">col_1</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/col_2">
+         <obj_property name="ElementShortName">col_2</obj_property>
+         <obj_property name="ObjectShortName">col_2</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/FSM/out[2]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+         <obj_property name="label">Active_Buffer</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/Column_Select/ce_buff_data">
+         <obj_property name="ElementShortName">ce_buff_data</obj_property>
+         <obj_property name="ObjectShortName">ce_buff_data</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_00/Q0_reg_1[0]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">WE00</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_01/Q1_reg_0[0]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">WE01</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_02/Q2_reg_0[0]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">WE02</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/Column_Select/state_reg_2">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">state_reg_2</obj_property>
+         <obj_property name="ObjectShortName">state_reg_2</obj_property>
+         <obj_property name="label">state_row0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_10/Q0_reg_0[0]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">WE10</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_11/Q1_reg_1[0]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">WE11</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_12/Q2_reg_0[0]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">WE12</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/Column_Select/state_reg_1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">state_reg_1</obj_property>
+         <obj_property name="ObjectShortName">state_reg_1</obj_property>
+         <obj_property name="label">state_row1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_20/Q0_reg_0[0]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">WE20</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_21/Q1_reg_0[0]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">WE21</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_22/Q2_reg_1[0]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">WE22</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/Column_Select/state_reg_0">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">state_reg_0</obj_property>
+         <obj_property name="ObjectShortName">state_reg_0</obj_property>
+         <obj_property name="label">state_row2</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_30/E[0]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">WEB0</obj_property>
+         <obj_property name="CustomSignalColor">#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_31/\FSM_sequential_CS_reg[1] [0]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">WEB1</obj_property>
+         <obj_property name="CustomSignalColor">#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_32/\FSM_sequential_CS_reg[1] [0]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">WEB2</obj_property>
+         <obj_property name="CustomSignalColor">#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider68" type="divider">
+      <obj_property name="label">03</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus118">
+      <obj_property name="label">Timer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/FSM/\timer4x[0]_i_1_n_0 ">
+         <obj_property name="ElementShortName">\timer4x[0]_i_1_n_0 </obj_property>
+         <obj_property name="ObjectShortName">\timer4x[0]_i_1_n_0 </obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_Collection/TB/FSM/\timer4x[1]_i_1_n_0 ">
+         <obj_property name="ElementShortName">\timer4x[1]_i_1_n_0 </obj_property>
+         <obj_property name="ObjectShortName">\timer4x[1]_i_1_n_0 </obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/Controller_0/Q2_reg">
+      <obj_property name="ElementShortName">Q2_reg</obj_property>
+      <obj_property name="ObjectShortName">Q2_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/Controller_0/state0">
+      <obj_property name="ElementShortName">state0</obj_property>
+      <obj_property name="ObjectShortName">state0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/TB/Registers_Matrix_core/Controller_0/status_row">
+      <obj_property name="ElementShortName">status_row[0:0]</obj_property>
+      <obj_property name="ObjectShortName">status_row[0:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/Controller_0/thresh_sig">
+      <obj_property name="ElementShortName">thresh_sig</obj_property>
+      <obj_property name="ObjectShortName">thresh_sig</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/TB/Registers_Matrix_core/Controller_0/Counter/wait_time_reg__0">
+      <obj_property name="ElementShortName">wait_time_reg__0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wait_time_reg__0[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/Column_Select/ce_buff_data">
+      <obj_property name="ElementShortName">ce_buff_data</obj_property>
+      <obj_property name="ObjectShortName">ce_buff_data</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/TB/FSM/out">
+      <obj_property name="ElementShortName">out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Serializer_core/Clock_Wizard/clk4x">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clk4x</obj_property>
+      <obj_property name="ObjectShortName">clk4x</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="label">CLK_4X</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_00">
+      <obj_property name="ElementShortName">SREGQ_00[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_00[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_00/Q0_reg_1[0]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">WE00</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_01">
+      <obj_property name="ElementShortName">SREGQ_01[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_01[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_01/Q1_reg_0[0]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">WE01</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_02">
+      <obj_property name="ElementShortName">SREGQ_02[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_02[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_02/Q2_reg_0[0]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">WE02</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_10">
+      <obj_property name="ElementShortName">SREGQ_10[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_10[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_10/Q0_reg_0[0]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">WE10</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_11">
+      <obj_property name="ElementShortName">SREGQ_11[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_11[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_11/Q1_reg_1[0]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">WE11</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_12">
+      <obj_property name="ElementShortName">SREGQ_12[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_12[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_12/Q2_reg_0[0]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">WE12</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_20">
+      <obj_property name="ElementShortName">SREGQ_20[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_20[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_20/Q0_reg_0[0]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">WE20</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_21">
+      <obj_property name="ElementShortName">SREGQ_21[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_21[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_21/Q1_reg_0[0]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">WE21</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_22">
+      <obj_property name="ElementShortName">SREGQ_22[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_22[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_22/Q2_reg_1[0]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">WE22</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_30/Q">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+      <obj_property name="label">Buff_0[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_30/E[0]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">WEB0</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_31/Q">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+      <obj_property name="label">Buff_1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_31/\FSM_sequential_CS_reg[1] [0]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">WEB1</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_32/Q">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+      <obj_property name="label">Buff_2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/SRegister_32/\FSM_sequential_CS_reg[1] [0]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">WEB2</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/Controller_0/Checker/E[0]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">state_row0</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/Controller_0/Checker/state0">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">state0</obj_property>
+      <obj_property name="ObjectShortName">state0</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="label">reset_state_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/Controller_1/Checker/E[0]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">state_row1</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/Controller_1/Checker/state0_0">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">state0_0</obj_property>
+      <obj_property name="ObjectShortName">state0_0</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="label">reset_state_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/Controller_2/Checker/E[0]">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+      <obj_property name="label">state_row2</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/TB/Registers_Matrix_core/Controller_2/Checker/state0_1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">state0_1</obj_property>
+      <obj_property name="ObjectShortName">state0_1</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="label">reset_state_2</obj_property>
+   </wvobject>
+</wave_config>

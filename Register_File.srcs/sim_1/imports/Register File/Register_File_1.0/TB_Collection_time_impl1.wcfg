@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_Collection_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_Collection" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="754571000fs"></ZoomStartTime>
+      <ZoomEndTime time="882371001fs"></ZoomEndTime>
+      <Cursor1Time time="528171000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="227"></NameColumnWidth>
+      <ValueColumnWidth column_width="144"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject type="logic" fp_name="/TB_Collection/CLK">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/VALID">
+      <obj_property name="ElementShortName">VALID</obj_property>
+      <obj_property name="ObjectShortName">VALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_Collection/READY">
+      <obj_property name="ElementShortName">READY</obj_property>
+      <obj_property name="ObjectShortName">READY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_00">
+      <obj_property name="ElementShortName">SREGQ_00[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_00[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_01">
+      <obj_property name="ElementShortName">SREGQ_01[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_01[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_02">
+      <obj_property name="ElementShortName">SREGQ_02[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_02[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_10">
+      <obj_property name="ElementShortName">SREGQ_10[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_10[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_11">
+      <obj_property name="ElementShortName">SREGQ_11[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_11[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_12">
+      <obj_property name="ElementShortName">SREGQ_12[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_12[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_20">
+      <obj_property name="ElementShortName">SREGQ_20[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_20[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_21">
+      <obj_property name="ElementShortName">SREGQ_21[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_21[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/SREGQ_22">
+      <obj_property name="ElementShortName">SREGQ_22[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREGQ_22[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/TB_Collection/CLK_PERIOD">
+      <obj_property name="ElementShortName">CLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/TB/FSM/out">
+      <obj_property name="ElementShortName">out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_Collection/TB/Serializer_core/Output_Reg0/Q">
+      <obj_property name="ElementShortName">Q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

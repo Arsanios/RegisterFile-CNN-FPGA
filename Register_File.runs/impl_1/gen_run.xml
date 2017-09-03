@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1494637031">
+  <File Type="PA-TCL" Name="Collection.tcl"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Collection_postplace_pwropt.dcp"/>
+  <File Type="INIT-TIMING" Name="Collection_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="Collection_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Collection_drc_opted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Collection_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Collection.hwdef"/>
+  <File Type="OPT-TIMING" Name="Collection_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Collection_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Collection_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Collection_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Collection_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Collection_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Collection_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Collection_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Collection_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Collection_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Collection_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Collection_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Collection_timing_summary_placed.rpt"/>
+  <File Type="RDI-RDI" Name="Collection.vdi"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Collection_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Collection_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Collection_drc_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Collection_postroute_physopt.dcp"/>
+  <File Type="BG-BIT" Name="Collection.bit"/>
+  <File Type="ROUTE-DCP" Name="Collection_routed.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Collection_timing_summary_postroute_physopted.pb"/>
+  <File Type="BG-BIN" Name="Collection.bin"/>
+  <File Type="ROUTE-TIMING-PB" Name="Collection_timing_summary_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Collection_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-MSK" Name="Collection.msk"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Collection_timing_summary_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="Collection.rbt"/>
+  <File Type="ROUTE-SIMILARITY" Name="Collection_incremental_reuse_routed.rpt"/>
+  <File Type="BITSTR-NKY" Name="Collection.nky"/>
+  <File Type="ROUTE-CLK" Name="Collection_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Collection_postroute_physopt_bb.dcp"/>
+  <File Type="BG-DRC" Name="Collection.drc"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Collection_routed_bb.dcp"/>
+  <File Type="BITSTR-MMI" Name="Collection.mmi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Collection_timing_summary_postroute_physopted.rpt"/>
+  <File Type="BG-BGN" Name="Collection.bgn"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Collection_timing_summary_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="Collection.sysdef"/>
+  <File Type="BITSTR-BMM" Name="Collection_bd.bmm"/>
+  <File Type="ROUTE-STATUS-PB" Name="Collection_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="Collection_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Collection_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="Collection_power_summary_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Collection_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-PWR" Name="Collection_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="Collection_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Collection_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-PB" Name="Collection_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Collection_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="Collection_drc_routed.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Collection_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="Collection_timing_summary_physopted.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Status_Checker.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Status_Checker.vhd"/>
+        <Attr Name="ImportTime" Val="1492892051"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Counter_3X.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Counter_3X.vhd"/>
+        <Attr Name="ImportTime" Val="1492892064"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Row_Counter_Int.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Row_Counter_Int.vhd"/>
+        <Attr Name="ImportTime" Val="1492894714"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MRegister.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/MRegister.vhd"/>
+        <Attr Name="ImportTime" Val="1493341507"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Controller.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Controller.vhd"/>
+        <Attr Name="ImportTime" Val="1492892040"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Column_Selector.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Column_Selector.vhd"/>
+        <Attr Name="ImportTime" Val="1488968326"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Column_Counter_Int.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Column_Counter_Int.vhd"/>
+        <Attr Name="ImportTime" Val="1492892550"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Buff_Sim_Reg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Buff_Sim_Reg.vhd"/>
+        <Attr Name="ImportTime" Val="1492892873"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Register File/Register_File_Final/Files/Simp_Reg_8bIt.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Files/Simp_Reg_8bIt.vhd"/>
+        <Attr Name="ImportTime" Val="1488968401"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Multiplixer_4_1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Multiplixer_4_1.vhd"/>
+        <Attr Name="ImportTime" Val="1488968326"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci"/>
+        <Attr Name="ImportTime" Val="1489141449"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/ip/c_counter_binary_2/c_counter_binary_2.xci"/>
+        <Attr Name="ImportTime" Val="1493246016"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Registers_Matrix.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Registers_Matrix.vhd"/>
+        <Attr Name="ImportTime" Val="1493341561"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DMux_Row_Status.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/DMux_Row_Status.vhd"/>
+        <Attr Name="ImportTime" Val="1488968326"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FSM_01.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/FSM_01.vhd"/>
+        <Attr Name="ImportTime" Val="1494635219"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Serializer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Serializer.vhd"/>
+        <Attr Name="ImportTime" Val="1492892180"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Collection.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/sources_1/new/Collection.vhd"/>
+        <Attr Name="ImportTime" Val="1492894845"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Register File/REG_FILE.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/REG_FILE.coe"/>
+        <Attr Name="ImportTime" Val="1492954828"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Collection"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Constraints_Chip.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../media/arsanios/myNtfs/Xilinx/DATA/Tesi/Projects/Register File/Register_File_Final/Register_File.srcs/constrs_1/new/Constraints_Chip.xdc"/>
+        <Attr Name="ImportTime" Val="1494637026"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/Constraints_Chip.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="c_counter_binary_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+</GenRun>
